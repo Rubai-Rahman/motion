@@ -6,6 +6,9 @@ import ComplexAnimation from '@/components/complexAnimation';
 import SkewRectangle from '@/components/skewRectangle';
 import SpinningIcon from '@/components/spinningIcon';
 import FadeComponent from '@/components/fadeComponent';
+import Sidebar from '@/components/sidebar';
+import BouncingBall from '@/components/bouncingBall';
+import PulsatingEffect from '@/components/pulsatingEffect';
 
 export default function Home() {
   return (
@@ -17,7 +20,10 @@ export default function Home() {
       <SpinningIcon /> */}
       {/* <ComplexAnimation /> */}
       {/* <SkewRectangle /> */}
-      <FadeComponent />
+      {/* <FadeComponent /> */}
+      {/* <Sidebar /> */}
+      {/* <BouncingBall />   */}
+      <PulsatingEffect />
     </div>
   );
 }
