@@ -5,17 +5,19 @@ import BouncingCircle from '@/components/bouncingCircle';
 import ComplexAnimation from '@/components/complexAnimation';
 import SkewRectangle from '@/components/skewRectangle';
 import SpinningIcon from '@/components/spinningIcon';
+import FadeComponent from '@/components/fadeComponent';
 
 export default function Home() {
   return (
     <div>
       {/* <MotionCard /> */}
       {/* <StaggerComponent /> */}
-      <Box />
+      {/* <Box />
       <BouncingCircle />
-      <SpinningIcon />
+      <SpinningIcon /> */}
       {/* <ComplexAnimation /> */}
       {/* <SkewRectangle /> */}
+      <FadeComponent />
     </div>
   );
 }
