@@ -9,6 +9,7 @@ import FadeComponent from '@/components/fadeComponent';
 import Sidebar from '@/components/sidebar';
 import BouncingBall from '@/components/bouncingBall';
 import PulsatingEffect from '@/components/pulsatingEffect';
+import FadeInComponent from '@/components/fadeinComponent';
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
       {/* <FadeComponent /> */}
       {/* <Sidebar /> */}
       {/* <BouncingBall />   */}
-      <PulsatingEffect />
+      {/* <PulsatingEffect /> */}
+      <FadeInComponent />
     </div>
   );
 }
