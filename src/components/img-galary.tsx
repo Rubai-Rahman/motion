@@ -1,9 +1,9 @@
-const ImgGallery = () => {
+const ImgGalary = () => {
   return (
     <div>
-      <h1>This is ImgGallery</h1>
+      <h1>This is ImgGalary</h1>
     </div>
-  ); 
+  );
 };
 
-export default ImgGallery;
+export default ImgGalary;

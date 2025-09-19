@@ -10,6 +10,7 @@ import Sidebar from '@/components/sidebar';
 import BouncingBall from '@/components/bouncingBall';
 import PulsatingEffect from '@/components/pulsatingEffect';
 import FadeInComponent from '@/components/fadeinComponent';
+import SlidingMenu from '@/components/slidingMenu';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       {/* <BouncingBall />   */}
       {/* <PulsatingEffect /> */}
       <FadeInComponent />
+      <SlidingMenu />
     </div>
   );
 }

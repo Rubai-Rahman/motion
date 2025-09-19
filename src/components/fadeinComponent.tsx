@@ -1,21 +1,15 @@
 import * as motion from 'motion/react-client';
 
-const fadeInVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-};
-
 const FadeInComponent = () => {
   return (
-    <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={fadeInVariants}
-      transition={{ duration: 0.3 }}
-      className="bg-blue-500 p-4"
-    >
-      <h1>This is FadeInComponent</h1>
-    </motion.div>
+    <div className="w-[15rem] h-[20rem] bg-neutral-800 rounded-md flex  flex-col justify-between relative p-2">
+      <div className="text-[80px] [font-family:monospace] leading-[0.8] inset-1 text-white absolute  flex-col justify-center items-center break-words ">
+        responsive
+      </div>
+      <p className="text-white mt-auto w-full">
+        lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
   );
 };
 
